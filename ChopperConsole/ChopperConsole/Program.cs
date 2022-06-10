@@ -19,7 +19,10 @@ namespace ChopperConsole
             
             Console.WriteLine("D for draw.  S for shuffle.  Q for quit.");
             Console.WriteLine("");
-
+            Console.WriteLine("Shuffling..");
+            ninja.Shuffle();
+            knight.Shuffle();
+            
             var playing = true;
 
             while (playing)
@@ -33,7 +36,7 @@ namespace ChopperConsole
                         break;
                     case 'd':
                         Console.WriteLine("Ninja: " + ninja.DrawCard());
-                        Console.WriteLine("Knight: " + ninja.DrawCard());
+                        Console.WriteLine("Knight: " + knight.DrawCard());
                         break;
                     case 's':
                         Console.WriteLine("Shuffling..");

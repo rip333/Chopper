@@ -12,9 +12,20 @@ namespace ChopperConsole.Models
         public string frontImageUrl { get; set; }
         public int copies { get; set; }
 
+        public Card()
+        {
+        }
+
+        public Card(string nameIn, string descriptionIn, string frontImageUrlIn)
+        {
+            name = nameIn;
+            description = descriptionIn;
+            frontImageUrl = frontImageUrlIn;
+            copies = 1;
+        }
         public string GetText()
         {
-            return (name + "\n" + description);
+            return (name + "\n " + description);
         }
     }
 
@@ -31,7 +42,26 @@ namespace ChopperConsole.Models
         public List<Card> deck { get; set; }
         
         public static Hero FromJson(string json) {
-            return JsonSerializer.Deserialize<Hero>(json);
+            var hero = JsonSerializer.Deserialize<Hero>(json);
+            if (hero == null) return null;
+            hero.HandleCopies();
+            return hero;
+        }
+
+        public void HandleCopies()
+        {
+            var newCards = new List<Card>();
+            foreach (var card in deck.Where(card => card.copies > 1))
+            {
+                for (var i = 1; i < card.copies; i++)
+                {
+                    var copy = new Card(card.name, card.description, card.frontImageUrl);
+                    newCards.Add(copy);
+                }
+
+                card.copies = 1;
+            }
+            deck.AddRange(newCards);
         }
 
         public void Shuffle()
