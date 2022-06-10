@@ -11,7 +11,11 @@ namespace ChopperConsole
             
             Console.WriteLine("Chopper!");
 
-            var hero = Hero.FromJson(FileReader.ReadUrl("https://raw.githubusercontent.com/rip333/Chopper/main/playable-heroes/ninja-hero.json"));
+            var ninja = Hero.FromJson(FileReader.ReadUrl("https://raw.githubusercontent.com/rip333/Chopper/main/playable-heroes/Ninja.json"));
+            var knight =
+                Hero.FromJson(
+                    FileReader.ReadUrl(
+                        "https://raw.githubusercontent.com/rip333/Chopper/main/playable-heroes/Knight.json"));
             
             Console.WriteLine("D for draw.  S for shuffle.  Q for quit.");
             Console.WriteLine("");
@@ -28,11 +32,13 @@ namespace ChopperConsole
                         playing = false;
                         break;
                     case 'd':
-                        Console.WriteLine(hero.DrawCard());
+                        Console.WriteLine("Ninja: " + ninja.DrawCard());
+                        Console.WriteLine("Knight: " + ninja.DrawCard());
                         break;
                     case 's':
                         Console.WriteLine("Shuffling..");
-                        hero.Shuffle();
+                        ninja.Shuffle();
+                        knight.Shuffle();
                         break;
                 }
             }

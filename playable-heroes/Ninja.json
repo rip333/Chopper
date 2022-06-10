@@ -1,6 +1,6 @@
 {
     "name": "Ninja",
-    "description": "Ninja is a stealthy, fast-moving character that can move through walls and enemies.",
+    "description": "",
     "image": "https://static.wikia.nocookie.net/forgottenrealms/images/7/76/Ninja.jpg/revision/latest?cb=20100722162750",
     "health": 9,
     "attack": "2",
@@ -10,25 +10,25 @@
     "deck": [
         {
             "name": "Shuriken",
-            "description": "Move 1 and Attack 1 (Range 2)",
+            "description": "Move 2. Attack 1 (Range 2)",
             "frontImageUrl": "",
             "copies": 3
         },
         {
             "name": "Hidden Tunnel",
-            "description": "Move to any space on the board.",
+            "description": "Move to any space on the board.  Defend 2.",
             "frontImageUrl": "",
             "copies": 3
         },
         {
             "name": "Blade of the Father",
-            "description": "Equip +1 Attack",
+            "description": "Equip +1 Attack. If you are on a corner, Equip +1 Attack.  Attack.",
             "frontImageUrl": "",
             "copies": 3
         },
         {
             "name": "Midnight Slash",
-            "description": "Move 3, Attack",
+            "description": "Move 2. Attack.  Defend.",
             "frontImageUrl": "",
             "copies": 3
         },
@@ -46,13 +46,13 @@
         },
         {
             "name": "Master of Shadows (Ultimate)",
-            "description": "Move to a corner of the board and Attack 4.  Repeat this process for each corner.",
+            "description": "Move to a corner of the board.  Attack 4.  Repeat this process for each corner.",
             "frontImageUrl": "",
             "copies": 1
         },
         {
             "name": "Clan Assault (Ultimate)",
-            "description": "Choose white or black.  Attack all spaces of that color.",
+            "description": "Attack all black spaces.",
             "frontImageUrl": "",
             "copies": 1
         }
