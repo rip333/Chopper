@@ -1,4 +1,5 @@
 ﻿using System;
+using ChopperConsole.Util;
 
 namespace ChopperConsole
 {
@@ -6,7 +7,10 @@ namespace ChopperConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            Console.WriteLine("Chopper!");
+
+            FileReader.ReadFile("https://github.com/rip333/Chopper/blob/main/playable-heroes/ninja/ninja-hero.json");
         }
     }
 }
