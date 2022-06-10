@@ -1,0 +1,60 @@
+{
+    "name": "Ninja",
+    "description": "Ninja is a stealthy, fast-moving character that can move through walls and enemies.",
+    "image": "https://static.wikia.nocookie.net/forgottenrealms/images/7/76/Ninja.jpg/revision/latest?cb=20100722162750",
+    "health": 9,
+    "attack": "2",
+    "move": "Diagonal X",
+    "defense": "1",
+    "backImageUrl": "",
+    "deck": [
+        {
+            "name": "Shuriken",
+            "description": "Move 1 and Attack 1 (Range 2)",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Hidden Tunnel",
+            "description": "Move to any space on the board.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Blade of the Father",
+            "description": "Equip +1 Attack",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Midnight Slash",
+            "description": "Move 3, Attack",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Backflip",
+            "description": "Move 2, Defend 4",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Smokescreen",
+            "description": "You and your allies within two spaces cannot be targeted by Attacks this turn.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Master of Shadows (Ultimate)",
+            "description": "Move to a corner of the board and Attack 4.  Repeat this process for each corner.",
+            "frontImageUrl": "",
+            "copies": 1
+        },
+        {
+            "name": "Clan Assault (Ultimate)",
+            "description": "Choose white or black.  Attack all spaces of that color.",
+            "frontImageUrl": "",
+            "copies": 1
+        }
+    ]
+}
