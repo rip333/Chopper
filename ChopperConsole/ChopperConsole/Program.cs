@@ -11,7 +11,7 @@ namespace ChopperConsole
             
             Console.WriteLine("Chopper!");
 
-            var hero = Hero.FromJson(FileReader.ReadUrl("https://raw.githubusercontent.com/rip333/Chopper/main/playable-heroes/ninja/ninja-hero.json"));
+            var hero = Hero.FromJson(FileReader.ReadUrl("https://raw.githubusercontent.com/rip333/Chopper/main/playable-heroes/ninja-hero.json"));
             
             Console.WriteLine("D for draw.  S for shuffle.  Q for quit.");
             Console.WriteLine("");
