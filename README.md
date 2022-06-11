@@ -5,13 +5,9 @@
 
 [https://github.com/rip333/Chopper](https://github.com/rip333/Chopper)
 
-—
-
 ## Map
 
 Square Grid 5x7, alternating white and black spaces.
-
-—
 
 ## Keyword Examples
 
@@ -35,15 +31,11 @@ Defend - reduce damage taken by each individual attack that would hit you by you
 
 Equip X - Place this card on top of your hero.  For the rest of the game, or until you replace it with a different item, your hero gains the listed traits.
 
-—
-
 ## Deck Construction
 
 20 cards.
 
 All cards have the same back image (denoting the class).
-
-—
 
 ## Card Construction
 
@@ -57,6 +49,5 @@ Description - the action or effect of the card to be resolved when played.
 
 Max Copies: Between 1 and 4.
 
-—
 
 ## Game Setup
