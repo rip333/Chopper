@@ -45,5 +45,3 @@ Name
 Description - the action or effect of the card to be resolved when played.
 
 Max Copies: Between 1 and 4.
-
-[https://github.com/rip333/Chopper](https://github.com/rip333/Chopper)
