@@ -2,9 +2,9 @@
     "name": "Knight",
     "description": "",
     "image": "https://static.wikia.nocookie.net/forgottenrealms/images/7/76/Ninja.jpg/revision/latest?cb=20100722162750",
-    "health": 14,
+    "health": "14",
     "attack": "2",
-    "move": "L 2+1",
+    "move": "2",
     "defense": "3",
     "backImageUrl": "",
     "deck": [

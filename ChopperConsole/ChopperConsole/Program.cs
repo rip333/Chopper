@@ -36,6 +36,9 @@ namespace ChopperConsole
                         break;
                     case 'd':
                         Console.WriteLine("Ninja: " + ninja.DrawCard());
+                        Console.WriteLine("Ninja: " + ninja.DrawCard());
+                        Console.WriteLine("...");
+                        Console.WriteLine("Knight: " + knight.DrawCard());
                         Console.WriteLine("Knight: " + knight.DrawCard());
                         break;
                     case 's':

@@ -1,0 +1,60 @@
+{
+    "name": "",
+    "description": "",
+    "image": "",
+    "health": 0,
+    "attack": 0,
+    "move": 0,
+    "defense": 0,
+    "backImageUrl": "",
+    "deck": [
+        {
+            "name": "",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": " ",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "(Ultimate)",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 1
+        },
+        {
+            "name": "(Ultimate)",
+            "description": "",
+            "frontImageUrl": "",
+            "copies": 1
+        }
+    ]
+}

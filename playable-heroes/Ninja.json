@@ -2,58 +2,66 @@
     "name": "Ninja",
     "description": "",
     "image": "https://static.wikia.nocookie.net/forgottenrealms/images/7/76/Ninja.jpg/revision/latest?cb=20100722162750",
-    "health": 9,
+    "health": "9",
     "attack": "2",
-    "move": "Diagonal X",
+    "move": "4",
     "defense": "1",
     "backImageUrl": "",
     "deck": [
         {
-            "name": "Shuriken",
-            "description": "Move 2. Attack 1 (Range 2)",
+            "name": "Shurikens",
+            "description": "Move 2. Attack 3r2",
             "frontImageUrl": "",
-            "copies": 3
-        },
-        {
-            "name": "Hidden Tunnel",
-            "description": "Move to any space on the board.  Defend 2.",
-            "frontImageUrl": "",
-            "copies": 3
-        },
-        {
-            "name": "Blade of the Father",
-            "description": "Equip +1 Attack. If you are on a corner, Equip +1 Attack.  Attack.",
-            "frontImageUrl": "",
-            "copies": 3
+            "maxCopies": 4,
+            "copies": 4
         },
         {
             "name": "Midnight Slash",
-            "description": "Move 2. Attack.  Defend.",
+            "description": "Move 1.  Attack.  Shift to the opposite space of the target.  If you shifted, repeat this process (max 1 attack per enemy).",
             "frontImageUrl": "",
-            "copies": 3
+            "maxCopies": 4,
+            "copies": 4
         },
         {
             "name": "Backflip",
-            "description": "Move 2, Defend 4",
+            "description": "Shift 2*, Defend 4",
             "frontImageUrl": "",
-            "copies": 3
+            "maxCopies": 4,
+            "copies": 4
         },
         {
-            "name": "Smokescreen",
-            "description": "You and your allies within two spaces cannot be targeted by Attacks this turn.",
+            "name": "",
+            "description": "",
             "frontImageUrl": "",
-            "copies": 3
+            "maxCopies": 4,
+            "copies": 4
         },
         {
-            "name": "Master of Shadows (Ultimate)",
-            "description": "Move to a corner of the board.  Attack 4.  Repeat this process for each corner.",
+            "name": "Hidden Tunnel",
+            "description": "Shift to any space on the board.  Defend 2.",
             "frontImageUrl": "",
+            "maxCopies": 1,
             "copies": 1
         },
         {
-            "name": "Clan Assault (Ultimate)",
+            "name": "Blade of the Father (1)",
+            "description": "Equip.  Your basic attack is 3.  If you are in a corner space, your basic attack is 5.",
+            "frontImageUrl": "",
+            "maxCopies": 1,
+            "copies": 1
+        },
+        {
+            "name": "Master of Shadows (1)",
+            "description": "Move to a corner of the board.  Attack 4.  Repeat this process for each corner.",
+            "frontImageUrl": "",
+            "maxCopies": 1,
+            "copies": 1
+        },
+        {
+            "name": "Clan Assault (1)",
             "description": "Attack all black spaces.",
             "frontImageUrl": "",
+            "maxCopies": 1,
             "copies": 1
         }
     ]
