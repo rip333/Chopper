@@ -7,13 +7,13 @@
 
 —
 
-##Map
+## Map
 
 Square Grid 5x7, alternating white and black spaces.
 
 —
 
-##Keyword Examples
+## Keyword Examples
 
 Attack - Deal damage equal to your hero's attack value to one enemy target.  If the target space is not specified, target any enemy adjacent to your square.
 
@@ -37,7 +37,7 @@ Equip X - Place this card on top of your hero.  For the rest of the game, or unt
 
 —
 
-##Deck Construction
+## Deck Construction
 
 20 cards.
 
@@ -45,7 +45,7 @@ All cards have the same back image (denoting the class).
 
 —
 
-##Card Construction
+## Card Construction
 
 Front image.
 
@@ -59,4 +59,4 @@ Max Copies: Between 1 and 4.
 
 —
 
-##Game Setup
+## Game Setup
