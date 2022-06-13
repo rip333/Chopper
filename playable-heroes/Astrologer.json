@@ -1,0 +1,60 @@
+{
+    "name": "Astrologer",
+    "description": "",
+    "image": "",
+    "health": "8",
+    "attack": "1r3",
+    "move": "4",
+    "defense": "1",
+    "backImageUrl": "",
+    "deck": [
+        {
+            "name": "Aquarius",
+            "description": "Move to any target square that is the opposite color of your current square.  Knockback.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Capricorn",
+            "description": "Move L (1+2).  Attack 3.",
+            "frontImageUrl": "",
+            "copies": 4
+        },
+        {
+            "name": "Libra",
+            "description": "Shift 2*. Attack.  Attack.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Pisces",
+            "description": "Switch positions with target hero.",
+            "frontImageUrl": "",
+            "copies": 2
+        },
+        {
+            "name": "Sagittarius",
+            "description": "Move 5.  Attack 1r3.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Scorpio",
+            "description": "Attack 2.  Attack 2.",
+            "frontImageUrl": "",
+            "copies": 3
+        },
+        {
+            "name": "Taurus (Ultimate)",
+            "description": "Move 5 straight.  Attack 5.  Knockback.",
+            "frontImageUrl": "",
+            "copies": 1
+        },
+        {
+            "name": "Leo (Ultimate)",
+            "description": "Move 2*.  Multiattack 3.  Attack 2.",
+            "frontImageUrl": "",
+            "copies": 1
+        }
+    ]
+}

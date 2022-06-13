@@ -9,40 +9,40 @@
     "backImageUrl": "",
     "deck": [
         {
-            "name": "Calvalry Charge",
+            "name": "Calvary Charge",
             "description": "Move up to 4 straight.  Attack X.",
             "frontImageUrl": "",
-            "copies": 3
-        },
-        {
-            "name": "Shield Wall",
-            "description": "You and any adjacent allies Defend equal to your hero's defense value.",
-            "frontImageUrl": "",
-            "copies": 3
-        },
-        {
-            "name": "Will of the King",
-            "description": "Heal 1. On your next turn, draw 3 cards.",
-            "frontImageUrl": "",
-            "copies": 3
-        },
-        {
-            "name": "Execute",
-            "description": "Attack 5",
-            "frontImageUrl": "",
-            "copies": 3
+            "copies": 4
         },
         {
             "name": "Crusader Strike",
             "description": "Move.  Attack",
             "frontImageUrl": "",
-            "copies": 3
+            "copies": 4
+        },
+        {
+            "name": "Will of the King",
+            "description": "Heal 1. Defend.",
+            "frontImageUrl": "",
+            "copies": 4
+        },
+        {
+            "name": "Execute",
+            "description": "Move 1 diagonal.  Attack 5",
+            "frontImageUrl": "",
+            "copies": 4
+        },
+        {
+            "name": "Tower Shield",
+            "description": "Equip.  Your basic defend is 4.",
+            "frontImageUrl": "",
+            "copies": 1
         },
         {
             "name": "Reap what you sow ",
             "description": "Heal 1.  If you are on a white space, you may play another card from your hand.",
             "frontImageUrl": "",
-            "copies": 3
+            "copies": 1
         },
         {
             "name": "Holy Cross (Ultimate)",
@@ -52,7 +52,7 @@
         },
         {
             "name": "Fearsome Conqueror (Ultimate)",
-            "description": "Attack. If you are in the center space, on your next turn, draw 4 cards.",
+            "description": "Attack (ranged 3). If you are in the center space, on your next turn, draw 4 cards.",
             "frontImageUrl": "",
             "copies": 1
         }

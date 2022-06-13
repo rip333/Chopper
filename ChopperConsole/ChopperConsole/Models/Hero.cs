@@ -34,7 +34,7 @@ namespace ChopperConsole.Models
         public string name { get; set; }
         public string description { get; set; }
         public string image { get; set; }
-        public int health { get; set; }
+        public string health { get; set; }
         public string attack { get; set; }
         public string move { get; set; }
         public string defense { get; set; }

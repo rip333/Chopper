@@ -17,34 +17,34 @@
         },
         {
             "name": "Midnight Slash",
-            "description": "Move 1.  Attack.  Shift to the opposite space of the target.  If you shifted, repeat this process (max 1 attack per enemy).",
+            "description": "Attack.  Shift to the opposite space of the target you attacked.  Repeat this process. (Checkers)",
             "frontImageUrl": "",
             "maxCopies": 4,
             "copies": 4
         },
         {
             "name": "Backflip",
-            "description": "Shift 2*, Defend 4",
+            "description": "Shift 2*, Attack.",
             "frontImageUrl": "",
             "maxCopies": 4,
             "copies": 4
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Ancestors Guide Me",
+            "description": "Defend.  On your next turn, draw 3 cards.",
             "frontImageUrl": "",
             "maxCopies": 4,
             "copies": 4
         },
         {
             "name": "Hidden Tunnel",
-            "description": "Shift to any space on the board.  Defend 2.",
+            "description": "Shift to any black space on the board.  Defend 2.",
             "frontImageUrl": "",
             "maxCopies": 1,
             "copies": 1
         },
         {
-            "name": "Blade of the Father (1)",
+            "name": "Blade of the Grandfather (1)",
             "description": "Equip.  Your basic attack is 3.  If you are in a corner space, your basic attack is 5.",
             "frontImageUrl": "",
             "maxCopies": 1,
@@ -59,7 +59,7 @@
         },
         {
             "name": "Clan Assault (1)",
-            "description": "Attack all black spaces.",
+            "description": "Attack all enemy heroes on black spaces.",
             "frontImageUrl": "",
             "maxCopies": 1,
             "copies": 1
